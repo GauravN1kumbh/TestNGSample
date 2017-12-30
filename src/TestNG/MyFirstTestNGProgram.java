@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class MyFirstTestNGProgram {
 	// public static String driverPath = "Artifacts";
-	@Test(priority = 0)
+	@Test(priority = 1)
 	public void login() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver",
 				"d:\\Techcanvass_Workplace\\SeleniumBasics\\Artifacts\\chromedriver.exe");
@@ -58,7 +58,7 @@ public class MyFirstTestNGProgram {
 
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 0)
 	public void loginFailed() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver",
 				"d:\\Techcanvass_Workplace\\SeleniumBasics\\Artifacts\\chromedriver.exe");
